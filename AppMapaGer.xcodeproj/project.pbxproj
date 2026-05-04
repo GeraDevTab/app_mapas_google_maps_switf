@@ -9,17 +9,24 @@
 /* Begin PBXBuildFile section */
 		CB133E5E2FA7CD4000CFAA2D /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = CB133E5D2FA7CD4000CFAA2D /* GoogleMaps */; };
 		CB133E602FA7ED1100CFAA2D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CB133E5F2FA7ED1100CFAA2D /* .gitignore */; };
+		CB45845E2FA8E5E500C1ED3F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB45845D2FA8E5CE00C1ED3F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB133E4E2FA7C97500CFAA2D /* AppMapaGer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMapaGer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB133E5F2FA7ED1100CFAA2D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CB45845D2FA8E5CE00C1ED3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CB133E502FA7C97500CFAA2D /* AppMapaGer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AppMapaGer;
+			sourceTree = "<group>";
+		};
+		CB4584592FA8E53300C1ED3F /* assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +46,8 @@
 		CB133E452FA7C97500CFAA2D = {
 			isa = PBXGroup;
 			children = (
+				CB45845D2FA8E5CE00C1ED3F /* README.md */,
+				CB4584592FA8E53300C1ED3F /* assets */,
 				CB133E502FA7C97500CFAA2D /* AppMapaGer */,
 				CB133E4F2FA7C97500CFAA2D /* Products */,
 				CB133E5F2FA7ED1100CFAA2D /* .gitignore */,
@@ -70,6 +79,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CB133E502FA7C97500CFAA2D /* AppMapaGer */,
+				CB4584592FA8E53300C1ED3F /* assets */,
 			);
 			name = AppMapaGer;
 			packageProductDependencies = (
@@ -121,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB45845E2FA8E5E500C1ED3F /* README.md in Resources */,
 				CB133E602FA7ED1100CFAA2D /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
